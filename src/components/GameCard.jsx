@@ -2,20 +2,26 @@ import { Link } from "react-router-dom";
 
 function GameCard({ game }) {
   return (
-    <div className="bg-slate-800 rounded-2xl p-6 border border-slate-700 hover:scale-105 duration-300 shadow-lg">
-      <h2 className="text-2xl font-bold text-cyan-400 mb-3">
-        {game.title}
-      </h2>
+    <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 duration-300">
+      <div className="flex justify-between items-center mb-5">
+        <h2 className="text-3xl font-bold text-gray-800">
+          {game.title}
+        </h2>
 
-      <p className="text-slate-300 mb-6">
+        <div className="bg-blue-100 text-blue-700 px-4 py-2 rounded-xl text-sm font-bold">
+          Game
+        </div>
+      </div>
+
+      <p className="text-gray-600 text-lg mb-8">
         {game.description}
       </p>
 
       <Link
         to={game.path}
-        className="bg-cyan-500 hover:bg-cyan-600 px-5 py-3 rounded-xl font-bold"
+        className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold inline-block duration-300"
       >
-        Play Game
+        Play Now
       </Link>
     </div>
   );

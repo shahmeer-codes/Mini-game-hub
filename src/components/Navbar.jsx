@@ -2,15 +2,18 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-slate-900 border-b border-slate-700 px-6 py-4 flex justify-between items-center">
+    <nav className="bg-white border-b border-gray-300 px-8 py-5 flex justify-between items-center sticky top-0 z-50 shadow-sm">
       <Link to="/">
-        <h1 className="text-3xl font-bold text-cyan-400">
+        <h1 className="text-3xl font-bold text-blue-600">
           Mini Game Hub
         </h1>
       </Link>
 
-      <div className="flex gap-6">
-        <Link to="/" className="hover:text-cyan-400 duration-300">
+      <div className="flex gap-8 text-lg font-medium">
+        <Link
+          to="/"
+          className="text-gray-700 hover:text-blue-600 duration-300"
+        >
           Home
         </Link>
       </div>

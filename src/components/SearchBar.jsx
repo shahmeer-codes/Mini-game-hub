@@ -1,12 +1,12 @@
 function SearchBar({ search, setSearch }) {
   return (
-    <div className="flex justify-center mt-10">
+    <div className="flex justify-center">
       <input
         type="text"
-        placeholder="Search Games..."
+        placeholder="Search games..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="w-[90%] md:w-[40%] p-4 rounded-xl bg-slate-800 border border-slate-600 outline-none"
+        className="w-[90%] md:w-[45%] bg-white border border-gray-300 rounded-2xl px-6 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
       />
     </div>
   );
