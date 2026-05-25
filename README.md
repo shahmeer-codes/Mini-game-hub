@@ -1,16 +1,63 @@
-# React + Vite
+# Mini Game Hub 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern mini game hub built with React and Tailwind CSS where users can explore and play multiple browser games like Rock Paper Scissor and Tic Tac Toe. The app includes a clean UI, search functionality, score tracking, and smooth navigation between games.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Beautiful modern UI (Light theme)
+- Game listing homepage
+- Search games functionality
+- Rock Paper Scissor game with score tracking
+- Tic Tac Toe game (2 player)
+- Responsive design for all devices
+- Smooth navigation using React Router
+- Reusable components
+- Fast and lightweight
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+- React Router DOM
+- JavaScript (ES6+)
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/
+├── components/
+├── data/
+├── pages/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## 📸 Games Included
+🎯 Rock Paper Scissor
+❌ Tic Tac Toe
+⚙️ Installation
+git clone https://github.com/your-username/mini-game-hub.git
+cd mini-game-hub
+npm install
+npm run dev
+🌐 Future Improvements
+Dark mode toggle 🌙
+More mini games
+Leaderboard system
+Redux state management
+Online multiplayer support
+🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+👨‍💻 Author
+
+Made by Shahmeer Rana
