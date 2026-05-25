@@ -1,9 +1,18 @@
-import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import RockPaperScissor from "./pages/RockPaperScissor";
+import TicTacToe from "./pages/TicTacToe";
 
-const App = () => {
+function App() {
   return (
-    <div>App</div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/rock-paper-scissor" element={<RockPaperScissor />} />
+        <Route path="/tic-tac-toe" element={<TicTacToe />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
