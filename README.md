@@ -40,23 +40,26 @@ src/
 ├── main.jsx
 └── index.css
 
-## 📸 Games Included
-🎯 Rock Paper Scissor
+📸 Games Included
+🎯 Rock Paper Scissors
 ❌ Tic Tac Toe
+
 ⚙️ Installation
 git clone https://github.com/your-username/mini-game-hub.git
 cd mini-game-hub
 npm install
 npm run dev
+
 🌐 Future Improvements
 Dark mode toggle 🌙
 More mini games
-Leaderboard system
+Leaderboard system 🏆
 Redux state management
 Online multiplayer support
 🤝 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first.
+Contributions are welcome!
+If you want to improve this project, feel free to fork it and submit a pull request.
 
 👨‍💻 Author
 
